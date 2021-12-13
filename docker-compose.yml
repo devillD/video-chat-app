@@ -5,4 +5,4 @@ services:
     volumes:
         - ./:/usr/share/nginx/www
     ports:
-      - 443:443
+      - 80:80
