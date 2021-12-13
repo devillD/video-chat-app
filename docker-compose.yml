@@ -1,0 +1,8 @@
+version: '1'
+services:
+  x:
+    image: nginx
+    volumes:
+        - ./:/usr/share/nginx/www
+    ports:
+      - 443:443
