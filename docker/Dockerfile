@@ -2,4 +2,4 @@ FROM nginx
 
 COPY rootfs /
 
-EXPOSE 443
+EXPOSE 80
