@@ -3,6 +3,6 @@ services:
   x:
     image: nginx
     volumes:
-        - ./:/usr/share/nginx/www
+        - ./:/var/www/html
     ports:
       - 80:80
