@@ -3,7 +3,7 @@ peerapp = (function() {
 
     console.log("Peer client started");
 
-    var PEER_SERVER = 'peerjs-abirxo.cloud.okteto.net','0.peerjs.com','my-peer.herokuapp.com';
+    var PEER_SERVER = '0.peerjs.com';
     var PORT = 443;
     var connectedPeers = {};
     var myPeerID = generateRandomID(4);
