@@ -4,4 +4,4 @@ COPY rootfs /
 
 #RUN mv ../ /usr/share/nginx/www
 
-EXPOSE 80
+EXPOSE 80 443
