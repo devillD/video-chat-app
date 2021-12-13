@@ -1,7 +1,7 @@
 version: '1'
 services:
   x:
-    image: nginx
+    build: ./docker
     volumes:
         - ./:/usr/share/nginx/www
     ports:
