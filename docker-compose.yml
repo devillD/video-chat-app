@@ -1,8 +1,6 @@
 version: '1'
 services:
   x:
-    image: nginx
-    volumes:
-        - ./:/var/www/html
+    build: .
     ports:
       - 80:80
