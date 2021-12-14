@@ -6,4 +6,6 @@ RUN apk update \
 
 ADD . /var/www/localhost/htdocs
 
+EXPOSE 80
+
 CMD ["lighttpd", "-D", "-f", "/etc/lighttpd/lighttpd.conf"]
