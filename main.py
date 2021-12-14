@@ -9,4 +9,4 @@ def home():
 
 
 if __name__ == '__main__':
-    app.run(threaded=True, port=443)
+    app.run(threaded=True, port=80)
