@@ -1,6 +1,6 @@
 version: '1'
 services:
   x:
-    build: Dockerfile
+    build: .
     ports:
-      - 443:443
+      - 80:80
