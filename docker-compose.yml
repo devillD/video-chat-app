@@ -3,4 +3,4 @@ services:
   x:
     build: .
     ports:
-      - 80:80
+      - 443:443
